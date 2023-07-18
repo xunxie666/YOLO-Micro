@@ -1,0 +1,11 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:/PyCharm2022.1.3/PycharmProjects/yolov7-main/data/VOC2007/train_ssd.txt  # 118287 images
+val: E:/PyCharm2022.1.3/PycharmProjects/yolov7-main/data/VOC2007/val_ssd.txt  # 5000 images
+test: E:/PyCharm2022.1.3/PycharmProjects/yolov7-main/data/VOC2007/test_ssd.txt
+
+
+# Classes
+nc: 20  # number of classes
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+        'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']  # class names
